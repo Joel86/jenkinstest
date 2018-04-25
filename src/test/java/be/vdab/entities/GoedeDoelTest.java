@@ -23,7 +23,7 @@ public class GoedeDoelTest {
 	}
 	@Test
 	public void eenNieuwDoelHeeftNogNietsOpgebracht() {
-		assertNotEquals(0, doel.getOpgebracht().compareTo(BigDecimal.ZERO));
+		assertEquals(0, doel.getOpgebracht().compareTo(BigDecimal.ZERO));
 	}
 	@Test
 	public void goedeDoelenMetDezelfdeNaamMoetenVolgensEqualsGelijkZijn() {
