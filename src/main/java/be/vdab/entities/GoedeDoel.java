@@ -19,6 +19,6 @@ public class GoedeDoel {
 		if(!(object instanceof GoedeDoel)) {
 			return false;
 		}
-		return ((GoedeDoel) object).naam.equalsIgnoreCase(this.naam)
+		return ((GoedeDoel) object).naam.equalsIgnoreCase(this.naam);
 	}
 }
